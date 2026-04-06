@@ -87,7 +87,17 @@
 
     {{-- JS --}}
     <script src="{{ asset('js/app.js') }}"></script>
-
+    <script>
+        document.getElementById('mobile-cta').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.add('open');
+        });
+        document.getElementById('mobile-exit').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.remove('open');
+        });
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(() => {});
+        }
+    </script>
     @stack('scripts')
 </body>
 
