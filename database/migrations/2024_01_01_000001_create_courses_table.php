@@ -14,12 +14,11 @@ return new class extends Migration
     {
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
-            $table->string('code', 20)->unique();          // e.g. COMP1001
-            $table->string('name', 120);                   // Course name
-            $table->unsignedTinyInteger('credits');        // Credit hours
-            $table->string('prerequisites', 200)
-                  ->default('None');                       // Pre-req course codes
-            $table->text('description');                   // Course description
+            $table->string('code', 20)->unique();      
+            $table->string('name', 120);               
+            $table->integer('credits');        
+            $table->string('prerequisites', 200)->nullable();
+            $table->longText('description')->nullable();                  
             $table->timestamps();
         });
     }
