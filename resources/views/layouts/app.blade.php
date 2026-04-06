@@ -44,7 +44,7 @@
     <!-- ── NAVBAR ── -->
     <div class="navbar">
         <div class="container">
-            <a class="logo" href="index.html">
+            <a class="logo" href="/"></a>
                 <div class="logo-badge">UCC</div>
                 IT <span>Department</span>
             </a>
@@ -53,7 +53,7 @@
 
             <nav>
                 <ul class="primary-nav">
-                    <li class="current"><a href="index.html">Home</a></li>
+                    <li class="current"><a href="/">Home</a></li>
                     <li><a href="/courses">Courses</a></li>
                     <li><a href="/admissions">Admissions</a></li>
                     <li><a href="/social">Social</a></li>
@@ -83,7 +83,7 @@
     </a>
 
     {{-- Service Worker --}}
-    @RegisterServiceWorkerScript
+    {{-- @RegisterServiceWorkerScript --}}
 
     {{-- JS --}}
     <script src="{{ asset('js/app.js') }}"></script>

@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Course;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class CourseSeeder extends Seeder
@@ -15,74 +14,74 @@ class CourseSeeder extends Seeder
     {
         $courses = [
             [
-                'code'          => 'COMP1001',
-                'name'          => 'Introduction to Computing',
-                'credits'       => 3,
+                'code' => 'ITT103',
+                'name' => 'Programming Techniques',
+                'credits' => 3,
+                'prerequisites' => 'ITT107',
+                'description' => 'Introduction to programming concepts including problem-solving, algorithms, variables, control structures, and basic application development.',
+            ],
+            [
+                'code' => 'ITT200',
+                'name' => 'Object Oriented Programming using C++',
+                'credits' => 3,
+                'prerequisites' => 'ITT103',
+                'description' => 'Covers object-oriented programming principles such as classes, objects, inheritance, polymorphism, and encapsulation using C++.',
+            ],
+            [
+                'code' => 'ITT210',
+                'name' => 'Database Management Systems',
+                'credits' => 3,
+                'prerequisites' => 'ITT103',
+                'description' => 'Introduction to database concepts including relational models, SQL, normalization, and database design and implementation.',
+            ],
+            [
+                'code' => 'ITT201',
+                'name' => 'Data Communication & Networks I',
+                'credits' => 3,
+                'prerequisites' => 'ITT107',
+                'description' => 'Fundamentals of data communication, networking concepts, protocols, and network architectures.',
+            ],
+            [
+                'code' => 'ITT203',
+                'name' => 'Data Structures and File Management I',
+                'credits' => 3,
+                'prerequisites' => 'ITT200',
+                'description' => 'Study of data structures such as arrays, linked lists, stacks, and queues, along with file organization techniques.',
+            ],
+            [
+                'code' => 'ITT302',
+                'name' => 'Operating Systems',
+                'credits' => 3,
                 'prerequisites' => 'None',
-                'description'   => 'Fundamentals of computing including hardware components, software classification, operating system basics, and the history of information technology. No prior experience required.',
+                'description' => 'Explores operating system concepts including process management, memory management, file systems, and system security.',
             ],
             [
-                'code'          => 'COMP1010',
-                'name'          => 'Programming I',
-                'credits'       => 3,
+                'code' => 'ITT318',
+                'name' => 'Cloud Computing',
+                'credits' => 3,
+                'prerequisites' => 'ITT209 or ITT212',
+                'description' => 'Introduction to cloud computing models, virtualization, cloud services, deployment models, and cloud security.',
+            ],
+            [
+                'code' => 'ITT405',
+                'name' => 'Human Computer Interaction and Interface Design',
+                'credits' => 3,
+                'prerequisites' => 'ITT310, PSY100',
+                'description' => 'Focuses on designing user-friendly interfaces, usability principles, user experience (UX), and interaction design techniques.',
+            ],
+            [
+                'code' => 'ITT419',
+                'name' => 'Enterprise Application Development',
+                'credits' => 3,
+                'prerequisites' => 'ITT208, ITT210, ITT310',
+                'description' => 'Development of large-scale enterprise applications using modern frameworks, design patterns, and integration techniques.',
+            ],
+            [
+                'code' => 'ITT420',
+                'name' => 'Mobile Application Development',
+                'credits' => 3,
                 'prerequisites' => 'None',
-                'description'   => 'Introduction to problem-solving and programming using Python. Topics include variables, data types, control structures, loops, functions, and basic file I/O.',
-            ],
-            [
-                'code'          => 'COMP1020',
-                'name'          => 'Computer Mathematics',
-                'credits'       => 3,
-                'prerequisites' => 'None',
-                'description'   => 'Mathematical foundations for computing: number systems, Boolean algebra, logic gates, set theory, and introductory discrete mathematics.',
-            ],
-            [
-                'code'          => 'COMP2010',
-                'name'          => 'Programming II',
-                'credits'       => 3,
-                'prerequisites' => 'COMP1010',
-                'description'   => 'Object-oriented programming concepts using Java. Covers classes, objects, inheritance, polymorphism, interfaces, exception handling, and collections.',
-            ],
-            [
-                'code'          => 'COMP2020',
-                'name'          => 'Data Structures and Algorithms',
-                'credits'       => 3,
-                'prerequisites' => 'COMP2010',
-                'description'   => 'Study of fundamental data structures (arrays, linked lists, stacks, queues, trees, graphs) and algorithm design and analysis, including sorting and searching.',
-            ],
-            [
-                'code'          => 'COMP2030',
-                'name'          => 'Database Management Systems',
-                'credits'       => 3,
-                'prerequisites' => 'COMP1010',
-                'description'   => 'Relational database concepts, entity-relationship modelling, normalisation, SQL (DDL and DML), stored procedures, and an introduction to database administration.',
-            ],
-            [
-                'code'          => 'COMP3010',
-                'name'          => 'Operating Systems',
-                'credits'       => 3,
-                'prerequisites' => 'COMP2010',
-                'description'   => 'Principles of operating system design including process scheduling, memory management, file systems, concurrency, and virtualisation concepts.',
-            ],
-            [
-                'code'          => 'COMP3020',
-                'name'          => 'Computer Networking',
-                'credits'       => 3,
-                'prerequisites' => 'COMP2030',
-                'description'   => 'Network architectures, OSI and TCP/IP models, IP addressing and subnetting, routing protocols, network security fundamentals, and wireless technologies.',
-            ],
-            [
-                'code'          => 'COMP3030',
-                'name'          => 'Web Application Development',
-                'credits'       => 3,
-                'prerequisites' => 'COMP2010, COMP2030',
-                'description'   => 'Full-stack web development using HTML5, CSS3, JavaScript, PHP, and the Laravel framework. Covers MVC architecture, RESTful APIs, authentication, and deployment.',
-            ],
-            [
-                'code'          => 'COMP4010',
-                'name'          => 'Capstone Project',
-                'credits'       => 6,
-                'prerequisites' => 'COMP3030, COMP3020',
-                'description'   => 'A supervised, industry-level software project developed over one semester. Students demonstrate integration of IT competencies, apply Agile methodology, and present to an industry panel.',
+                'description' => 'Covers the design and development of mobile applications, including user interfaces, mobile frameworks, and deployment.',
             ],
         ];
 
