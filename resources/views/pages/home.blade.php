@@ -11,10 +11,11 @@
 
     <div class="left-col">
       <p class="subhead">University of the Commonwealth Caribbean</p>
-      <h1>An IT App That <span>Actually</span> Delivers</h1>
+      <h1>A Reliable It App <span></span></h1>
       <p class="hero-desc">
-        Access the faculty directory, browse IT courses, check admission requirements,
-        and connect with us — all from one place.
+      Easily explore faculty profiles, IT courses, admission requirements,
+       and contact options  all in one convenient location.
+      
       </p>
       <div class="hero-cta">
         <a href="/directory" class="primary-cta">Explore Now</a>
