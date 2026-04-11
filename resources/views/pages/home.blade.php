@@ -10,10 +10,9 @@
 
     <div class="left-col">
       <p class="subhead">University of the Commonwealth Caribbean</p>
-      <h1>A Reliable IT App <span></span></h1>
+      <h1>Duo 6 Assignment<span></span></h1>
       <p class="hero-desc">
-      Easily explore faculty profiles, IT courses, admission requirements,
-       and contact options  all in one convenient location.
+        Welcome to Kevando and AnnaKay's Internet Authoring 2 Major Project! Explore our faculty, courses, admissions, and social media all in one place. Your IT journey starts here.
       
       </p>
       <div class="hero-cta">
@@ -42,7 +41,7 @@
         <div class="app-icon blue">📚</div>
         <div>
           <div class="app-text-label">Courses</div>
-          <div class="app-text-sub">10 IT programmes offered</div>
+          <div class="app-text-sub">IT programmes offered</div>
         </div>
         <div class="app-arrow">›</div>
       </a>

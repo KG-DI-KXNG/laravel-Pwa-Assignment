@@ -10,10 +10,11 @@
         <div class="container">
             <div class="left-col">
                 <p class="subhead">University of the Commonwealth Caribbean</p>
-                <h1>UCC on <span>Social</span> Media</h1>
+                <h1>Duo 6 Assignment<span></span></h1>
                 <p class="hero-desc">
-                    Stay connected with the UCC IT Department — follow us on Facebook,
-                    Twitter, and Instagram for news, events, and updates.
+                    Welcome to Kevando and AnnaKay's Internet Authoring 2 Major Project! Explore our faculty, courses,
+                    admissions, and social media all in one place. Your IT journey starts here.
+
                 </p>
             </div>
             <div class="platform-pills">
@@ -151,4 +152,4 @@
             }
         }
     </script>
-@endpush 
+@endpush

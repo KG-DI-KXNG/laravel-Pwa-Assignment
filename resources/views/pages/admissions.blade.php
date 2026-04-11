@@ -11,10 +11,11 @@
             <!-- Left -->
             <div class="left-col">
                 <p class="subhead">University of the Commonwealth Caribbean</p>
-                <h1>Join the UCC <span>IT</span> Department</h1>
+                <h1>Duo 6 Assignment<span></span></h1>
                 <p class="hero-desc">
-                    The B.Sc. Information Technology is a 3-year full-time programme built for careers
-                    in software development, networking, cybersecurity, and IT management.
+                    Welcome to Kevando and AnnaKay's Internet Authoring 2 Major Project! Explore our faculty, courses,
+                    admissions, and social media all in one place. Your IT journey starts here.
+
                 </p>
                 <a class="apply-btn" href="https://www.ucc.edu.jm/admissions" target="_blank" rel="noopener noreferrer">
                     🎓 Apply at UCC &rarr;
