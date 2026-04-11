@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Faculty & Staff Directory – UCC IT')
-@section('topbar-title', 'Faculty & Staff')
-@section('back', true)
+@section('title', 'Faculty & Staff Directory')
 @push('styles')
     <link rel="stylesheet" href="css/button-animation.css">
 @endpush

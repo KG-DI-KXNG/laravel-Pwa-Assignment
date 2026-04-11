@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('title', 'Home')
-@section('topbar-title', 'IT Department')
 
 @section('content')
 
@@ -11,7 +10,7 @@
 
     <div class="left-col">
       <p class="subhead">University of the Commonwealth Caribbean</p>
-      <h1>A Reliable It App <span></span></h1>
+      <h1>A Reliable IT App <span></span></h1>
       <p class="hero-desc">
       Easily explore faculty profiles, IT courses, admission requirements,
        and contact options  all in one convenient location.

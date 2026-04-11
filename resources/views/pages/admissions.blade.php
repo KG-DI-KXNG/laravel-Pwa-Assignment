@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Admissions – UCC IT')
-@section('topbar-title', 'Admissions')
-@section('back', true)
+@section('title', 'Admissions')
 
 @section('content')
 

@@ -19,74 +19,17 @@ return [
     */
 
     'manifest' => [
-        'name'             => env('APP_NAME', 'UCC IT PWA'),
-        'short_name'       => 'UCC IT',
-        'background_color' => '#0a1628',
-        'display'          => 'standalone',
-        'description'      => 'UCC IT Department – Faculty, Courses, Admissions & Social Media',
-        'theme_color'      => '#0a1628',
-        'icons'            => [
+        'name' => 'Laravel PWA',
+        'short_name' => 'LPT',
+        'background_color' => '#6777ef',
+        'display' => 'fullscreen',
+        'description' => 'A Progressive Web Application setup for Laravel projects.',
+        'theme_color' => '#6777ef',
+        'icons' => [
             [
-                'src'     => '/icons/icon-72.png',
-                'sizes'   => '72x72',
-                'type'    => 'image/png',
-            ],
-            [
-                'src'     => '/icons/icon-96.png',
-                'sizes'   => '96x96',
-                'type'    => 'image/png',
-            ],
-            [
-                'src'     => '/icons/icon-128.png',
-                'sizes'   => '128x128',
-                'type'    => 'image/png',
-            ],
-            [
-                'src'     => '/icons/icon-192.png',
-                'sizes'   => '192x192',
-                'type'    => 'image/png',
-                'purpose' => 'any maskable',
-            ],
-            [
-                'src'     => '/icons/icon-512.png',
-                'sizes'   => '512x512',
-                'type'    => 'image/png',
-                'purpose' => 'any maskable',
-            ],
-        ],
-        'name'             => env('APP_NAME', 'UCC IT PWA'),
-        'short_name'       => 'UCC IT',
-        'background_color' => '#0a1628',
-        'display'          => 'standalone',
-        'description'      => 'UCC IT Department – Faculty, Courses, Admissions & Social Media',
-        'theme_color'      => '#0a1628',
-        'icons'            => [
-            [
-                'src'     => '/icons/icon-72.png',
-                'sizes'   => '72x72',
-                'type'    => 'image/png',
-            ],
-            [
-                'src'     => '/icons/icon-96.png',
-                'sizes'   => '96x96',
-                'type'    => 'image/png',
-            ],
-            [
-                'src'     => '/icons/icon-128.png',
-                'sizes'   => '128x128',
-                'type'    => 'image/png',
-            ],
-            [
-                'src'     => '/icons/icon-192.png',
-                'sizes'   => '192x192',
-                'type'    => 'image/png',
-                'purpose' => 'any maskable',
-            ],
-            [
-                'src'     => '/icons/icon-512.png',
-                'sizes'   => '512x512',
-                'type'    => 'image/png',
-                'purpose' => 'any maskable',
+                'src' => 'logo.png',
+                'sizes' => '512x512',
+                'type' => 'image/png',
             ],
         ],
     ],

@@ -120,57 +120,30 @@
             // panels
             document.querySelectorAll('.social-panel').forEach(p => p.classList.remove('social-panel--active'));
             document.getElementById('panel-' + name).classList.add('social-panel--active');
-            // tabs
-            document.querySelectorAll('.social-tab').forEach(t => {
-                t.classList.remove('social-tab--active');
-                t.setAttribute('aria-selected', 'false');
-            });
-            // hero pills
-            document.querySelectorAll('.platform-pill').forEach(p => p.classList.remove('active'));
-            // activate clicked
-            if (btn.classList.contains('social-tab')) {
-                btn.classList.add('social-tab--active');
-                btn.setAttribute('aria-selected', 'true');
-                // sync hero pill
-                const pills = document.querySelectorAll('.platform-pill');
-                const idx = ['facebook', 'twitter', 'instagram'].indexOf(name);
-                if (pills[idx]) pills[idx].classList.add('active');
-            } else {
-                // clicked hero pill — sync tabs
-                btn.classList.add('active');
-                const tabs = document.querySelectorAll('.social-tab');
-                const idx = ['facebook', 'twitter', 'instagram'].indexOf(name);
-                if (tabs[idx]) {
-                    tabs[idx].classList.add('social-tab--active');
-                    tabs[idx].setAttribute('aria-selected', 'true');
-                }
-            }
-        }
 
-        function showTab(name, btn) {
-            // panels
-            document.querySelectorAll('.social-panel').forEach(p => p.classList.remove('social-panel--active'));
-            document.getElementById('panel-' + name).classList.add('social-panel--active');
             // tabs
             document.querySelectorAll('.social-tab').forEach(t => {
                 t.classList.remove('social-tab--active');
                 t.setAttribute('aria-selected', 'false');
             });
+
             // hero pills
             document.querySelectorAll('.platform-pill').forEach(p => p.classList.remove('active'));
+
             // activate clicked
+            const idx = ['facebook', 'twitter', 'instagram'].indexOf(name);
+
             if (btn.classList.contains('social-tab')) {
                 btn.classList.add('social-tab--active');
                 btn.setAttribute('aria-selected', 'true');
-                // sync hero pill
+
                 const pills = document.querySelectorAll('.platform-pill');
-                const idx = ['facebook', 'twitter', 'instagram'].indexOf(name);
                 if (pills[idx]) pills[idx].classList.add('active');
+
             } else {
-                // clicked hero pill — sync tabs
                 btn.classList.add('active');
+
                 const tabs = document.querySelectorAll('.social-tab');
-                const idx = ['facebook', 'twitter', 'instagram'].indexOf(name);
                 if (tabs[idx]) {
                     tabs[idx].classList.add('social-tab--active');
                     tabs[idx].setAttribute('aria-selected', 'true');
@@ -178,4 +151,4 @@
             }
         }
     </script>
-@endpush
+@endpush 
