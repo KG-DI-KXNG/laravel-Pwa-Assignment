@@ -14,10 +14,11 @@
 
             <div class="left-col">
                 <p class="subhead">University of the Commonwealth Caribbean</p>
-                <h1>Meet the <span>IT</span> Team</h1>
+                <h1>Duo 6 <span>Assignment</span></h1>
                 <p class="hero-desc">
-                    Get in touch with our faculty and staff directly — call or email any member
-                    straight from this page.
+                    Welcome to Kevando and AnnaKay's Internet Authoring 2 Major Project! Explore our faculty, courses,
+                    admissions, and social media all in one place. Your IT journey starts here.
+
                 </p>
                 <div class="hero-cta">
                     <a href="mailto:hod.it@ucc.edu.jm" class="primary-cta">✉️ Email the HOD</a>
@@ -145,7 +146,7 @@
         function toggle() {
             let btn = this;
             console.log(btn);
-            if(gridView.style.display === 'none') {
+            if (gridView.style.display === 'none') {
                 gridView.style.display = 'grid';
                 tableView.style.display = 'none';
             } else {
